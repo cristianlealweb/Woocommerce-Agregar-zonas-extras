@@ -4,7 +4,7 @@ add_filter('woocommerce_states', 'add_custom_states_to_country');
 add_filter('woocommerce_countries_allowed_country_states', 'add_custom_states_to_country');
 function add_custom_states_to_country( $states ) {
     $states['AR'] = array(
-        'ET' => __('El Talar', 'woocommerce'),', 'woocommerce'),
+        'ET' => __('El Talar', 'woocommerce'),
         'SF' => __('San Fernando', 'woocommerce'),
         'DT' => __('Don Torcuato', 'woocommerce'),
         'SI' => __('San Isidro', 'woocommerce'),
